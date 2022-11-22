@@ -1,6 +1,6 @@
 # Vueon
 
-Laravelu instalcja Vue z Vite w wybranym katalogu (vue-project).
+Instalcja Vue z Vite w Laravelu w wybranym katalogu (vue-project).
 
 ### Project Laravela
 

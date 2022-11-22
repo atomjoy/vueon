@@ -64,3 +64,12 @@ npm run build
 # Php Laravel server
 php ../artisan serve
 ```
+
+## Instalacja pakietów Vue
+
+```sh
+cd vue-project
+npm install --save-dev axios
+npm install --save-dev vue-i18n@9
+npm install --save-dev @googlemaps/js-api-loader
+```

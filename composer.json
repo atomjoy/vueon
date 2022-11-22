@@ -10,9 +10,7 @@
 		}
 	],
 	"minimum-stability": "dev",
-	"require": {
-		"openpayu/openpayu": "2.3.*"
-	},
+	"require": {},
 	"autoload": {
 		"classmap": [
 			"src/"

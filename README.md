@@ -61,8 +61,31 @@ demo/vue-project
 cd vue-project
 # Vue build
 npm run build
+# Clear Laravel view cache
+php artisan view:clear
 # Php Laravel server
 php ../artisan serve
+```
+
+## Wyczyść view cache (dev mode)
+
+Jeżeli przeglądarka nie pokazuje aktualnej strony lub pokazuje błąd wczytywania plików index.[hash].js wyczyść view cache w Laravelu i uruchom localny server ponownie.
+
+```sh
+php artisan view:clear
+php artisan serve
+```
+
+### Lub wyłącz view cache w Laravel (dev mode)
+
+Dodaj do pliku config/view.php
+
+```php
+<?php
+return [
+    'cache' => false,
+    // ...
+]
 ```
 
 ## Instalacja pakietów Vue

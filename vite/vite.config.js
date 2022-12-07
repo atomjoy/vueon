@@ -13,6 +13,7 @@ export default defineConfig({
 	},
 	build: {
 		outDir: '../public',
+		emptyOutDir: false,
 		rollupOptions: {
 			output: {
 				assetFileNames: 'vue/[ext]/[name][extname]',
